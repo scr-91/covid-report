@@ -11,6 +11,10 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'accountKey' of 'dlkazurelake'"
 		},
+		"lkAzureSqlDatabase_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'lkAzureSqlDatabase'"
+		},
 		"lkblob_connectionString": {
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'lkblob'"
@@ -56,6 +60,9 @@
 					},
 					"dlkazurelake_accountKey": {
 						"value": "[parameters('dlkazurelake_accountKey')]"
+					},
+					"lkAzureSqlDatabase_connectionString": {
+						"value": "[parameters('lkAzureSqlDatabase_connectionString')]"
 					},
 					"lkblob_connectionString": {
 						"value": "[parameters('lkblob_connectionString')]"

@@ -8,6 +8,9 @@
 		"dlkazurelake_accountKey": {
 			"value": ""
 		},
+		"lkAzureSqlDatabase_connectionString": {
+			"value": ""
+		},
 		"lkblob_connectionString": {
 			"value": ""
 		},
